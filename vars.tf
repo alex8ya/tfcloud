@@ -1,6 +1,8 @@
 variable "instance_type" {}
 
-variable "region" {}
+variable "region" {
+default = "us-east-1"
+}
 
 variable "profile" {}
 
